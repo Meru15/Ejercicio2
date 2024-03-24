@@ -1,0 +1,121 @@
+header {
+  background-image: url(/9a7944d2-28ed-4c02-b6c1-8d724e778c60.png);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.t-nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.t-nav {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.t-nav-link {
+  color: white;
+  font-size: 20px;
+  display: block;
+  padding: 30px 25px;
+  text-decoration: none;
+}
+
+.t-logo {
+  max-width: 100%;
+  margin-right: 200px;
+}
+
+.t-header-text {
+  color: white;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+.t-button {
+  background-color: mediumblue;
+}
+
+.t-cars-type {
+  display: flex;
+  justify-content: space-around;
+  color: dimgrey;
+}
+.t-images {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-top: 5%;
+  left: 3%;
+}
+.t-image-one {
+  width: 25%;
+}
+.t-bmw-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-top: 5%;
+  left: 3%;
+}
+.t-bmw {
+  width: 25%;
+}
+.t-news-container {
+  display: flex;
+  width: 100%;
+  padding-top: 8%;
+}
+.t-news {
+  width: 50%;
+  text-align: center;
+}
+.t-info-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 50px;
+  height: 100px;
+  font-size: 30px;
+  padding-top: 25px;
+}
+.t-info {
+  text-decoration: none;
+  width: 22%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: oldlace;
+  color: dimgrey;
+}
+.t-footer-container {
+  display: flex;
+  font-size: 13px;
+  padding-top: 25px;
+}
+.t-footer {
+  width: 25%;
+  background-color: #e6e6e6;
+}
+.t-footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.t-footer-bmw {
+  color: grey;
+}
+.t-footer-link {
+  display: flex;
+  padding-inline: 10px;
+  text-decoration: none;
+  color: blue;
+}
